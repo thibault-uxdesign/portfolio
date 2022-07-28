@@ -32,12 +32,12 @@ body {
 
 #app {
   font-family: "Libre Franklin", "sans-serif";
-  src: url("./assets/fonts/libre-franklin-v13-latin-regular.woff") format("woff"),
-    url("./assets/fonts/libre-franklin-v13-latin-regular.woff2") format("woff2");
-  src: url("./assets/fonts/libre-franklin-v13-latin-600.woff") format("woff"),
-    url("./assets/fonts/libre-franklin-v13-latin-600.woff2") format("woff2");
-  src: url("./assets/fonts/libre-franklin-v13-latin-500.woff") format("woff"),
-    url("./assets/fonts/libre-franklin-v13-latin-500.woff2") format("woff2");
+  src: url("../assets/fonts/libre-franklin-v13-latin-regular.woff") format("woff"),
+    url("../assets/fonts/libre-franklin-v13-latin-regular.woff2") format("woff2");
+  src: url("../assets/fonts/libre-franklin-v13-latin-600.woff") format("woff"),
+    url("../assets/fonts/libre-franklin-v13-latin-600.woff2") format("woff2");
+  src: url("../assets/fonts/libre-franklin-v13-latin-500.woff") format("woff"),
+    url("../assets/fonts/libre-franklin-v13-latin-500.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }

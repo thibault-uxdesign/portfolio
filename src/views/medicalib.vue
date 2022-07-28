@@ -17,16 +17,16 @@ export default {
         <h1>Refonte de l’Espace Professionnel de Medicalib</h1>
         <div class="box">
             <div class="images">
-                <img src="../assets/images/bulle/photo1.png" alt="application bulle">
-                <img src="../assets/images/bulle/photo2 (2).png" alt="application bulle">
-                <img src="../assets/images/bulle/photo3.png" alt="application bulle">
+                <img src="../../assets/images/photo1.png" alt="application bulle">
+                <img src="../../assets/images/photo2.png" alt="application bulle">
+                <img src="../../assets/images/photo3.png" alt="application bulle">
             </div>
         </div>
         <div class="tools">
             <h2>Outils utilisés</h2>
             <div class="logo">
-                <img src="../assets/images/medicalib/figma logo.png" alt="Logo Figma">
-                <img src="../assets/images/medicalib/miro-2 1.png" alt="Logo Miro">
+                <img src="../../assets/images/figmalogo.png" alt="Logo Figma">
+                <img src="../../assets/images/miro-21.png" alt="Logo Miro">
             </div>
             <h2>Pourquoi ce projet ?</h2>
             <div class="info">
@@ -110,7 +110,7 @@ export default {
                 <p>Partie-prenante de l’atelier : <strong>Alice</strong> (UX/UI Designer), <strong>Guillaume</strong>
                     (Lead PM) et <strong>Caroline</strong> (PM)</p>
                 <div class="swot">
-                    <img src="../assets/images/medicalib/Retrospective 1.png" alt="retrospective">
+                    <img src="../../assets/images/Retrospective-1.png" alt="retrospective">
                 </div>
                 <p class="subtitle7">B. Quelles sont les typologies de professionnels qui utilisent l’espace ?</p>
                 <h3>Atelier Empathy Map (Miro)</h3>
@@ -122,11 +122,11 @@ export default {
                 <p>Nous avons établie une typologie d’utilisateurs de l’Espace Pro avec <strong>3 personas :</strong>
                 </p>
                 <div class="board">
-                    <img src="../assets/images/medicalib/Aimée.png" alt="personas">
-                    <img src="../assets/images/medicalib/Adrien.png" alt="personas">
+                    <img src="../../assets/images/Aimée.png" alt="personas">
+                    <img src="../../assets/images/Adrien.png" alt="personas">
                 </div>
                 <div class="board">
-                    <img class="yellow" src="../assets/images/medicalib/Stéphanie.png" alt="personas">
+                    <img class="yellow" src="../../assets/images/Stéphanie.png" alt="personas">
                 </div>
             </div>
         </div>

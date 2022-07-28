@@ -9,23 +9,23 @@ import bulle from '../views/bulle.vue'
 import medicalib from '../views/medicalib.vue'
 
 const routes = [
-  { path: '/portfolio/accueil', name: 'accueil', component: accueil },
+  { path: '/accueil', name: 'accueil', component: accueil },
 
-  { path: '/portfolio/contact', name: 'Contact', component: contact },
+  { path: '/contact', name: 'Contact', component: contact },
 
-  { path: '/portfolio/projets', name: 'Projets', component: projets },
+  { path: '/projets', name: 'Projets', component: projets },
 
-  { path: '/portfolio/qui-suis-je', name: 'Qui suis-je', component: quisuisje },
+  { path: '/qui-suis-je', name: 'Qui suis-je', component: quisuisje },
 
-  { path: '/portfolio/neumorphism', name: 'Neumorphism', component: neumorphism },
+  { path: '/neumorphism', name: 'Neumorphism', component: neumorphism },
 
-  { path: '/portfolio/bulle', name: 'Bulle', component: bulle },
+  { path: '/bulle', name: 'Bulle', component: bulle },
 
-  { path: '/portfolio/medicalib', name: 'Medicalib', component: medicalib },
+  { path: '/medicalib', name: 'Medicalib', component: medicalib },
+
+  { path: '/', redirect: '/accueil' },
 
 ]
-
-
 
 const router = createRouter({ history: createWebHistory(), routes })
 
