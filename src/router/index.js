@@ -23,7 +23,6 @@ const routes = [
 
   { path: '/portfolio/medicalib', name: 'Medicalib', component: medicalib },
 
-  { path: '/portfolio', redirect: '/accueil' }
 ]
 
 
