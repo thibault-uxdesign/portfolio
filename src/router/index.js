@@ -9,21 +9,21 @@ import bulle from '../views/bulle.vue'
 import medicalib from '../views/medicalib.vue'
 
 const routes = [
-  { path: '/accueil', name: 'accueil', component: accueil },
+  { path: '/portfolio/accueil', name: 'accueil', component: accueil },
 
-  { path: '/contact', name: 'Contact', component: contact },
+  { path: '/portfolio/contact', name: 'Contact', component: contact },
 
-  { path: '/projets', name: 'Projets', component: projets },
+  { path: '/portfolio/projets', name: 'Projets', component: projets },
 
-  { path: '/qui-suis-je', name: 'Qui suis-je', component: quisuisje },
+  { path: '/portfolio/qui-suis-je', name: 'Qui suis-je', component: quisuisje },
 
-  { path: '/neumorphism', name: 'Neumorphism', component: neumorphism },
+  { path: '/portfolio/neumorphism', name: 'Neumorphism', component: neumorphism },
 
-  { path: '/bulle', name: 'Bulle', component: bulle },
+  { path: '/portfolio/bulle', name: 'Bulle', component: bulle },
 
-  { path: '/medicalib', name: 'Medicalib', component: medicalib },
+  { path: '/portfolio/medicalib', name: 'Medicalib', component: medicalib },
 
-  { path: '/', redirect: '/accueil' }
+  { path: '/portfolio', redirect: '/accueil' }
 ]
 
 
